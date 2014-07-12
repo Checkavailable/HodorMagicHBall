@@ -1,7 +1,6 @@
 package bz.bosco.hodormagichball;
 
 import android.app.Activity;
-import android.graphics.drawable.AnimationDrawable;
 import android.hardware.Sensor;
 import android.hardware.SensorManager;
 import android.media.MediaPlayer;
@@ -63,6 +62,7 @@ public class MainActivity extends Activity {
     public void onPause(){
         super.onPause();
         mSensorManager.unregisterListener(mShakeDetector);
+        //hello
     }
 
     private void handleNewAnswer() {
