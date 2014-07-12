@@ -63,6 +63,7 @@ public class MainActivity extends Activity {
         super.onPause();
         mSensorManager.unregisterListener(mShakeDetector);
         //hello
+        //Hello again
     }
 
     private void handleNewAnswer() {
